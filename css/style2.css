@@ -102,6 +102,7 @@ img {
     word-spacing: 3px;
     letter-spacing: 2px;
     padding: 1rem;
+    text-transform: uppercase;
 }
 
 #phone-details {

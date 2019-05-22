@@ -1,0 +1,93 @@
+[
+    {
+        "id": "0",
+        "productName": "OnePlus 7 Pro",
+        "image": "../img/op7pro.jpg",
+        "display": "6.67 Inches",
+        "camera": "48MP",
+        "memory": "12GB RAM",
+        "cpu": "Snapdragon 855",
+        "storage": "256GB",
+        "battery": "4000mAh",
+        "price": "$699",
+        "description": "The OnePlus 7 Pro is OnePlus's first big flagship for 2019, and wow is it something special. The pop-up selfie camera allows for a display without any bezels or notches, there are three cameras on the back, and blazing fast performance with great software. All of that, and it costs hundreds of dollars less than some competing flagships."        
+    },
+    {
+        "id": "1",
+        "productName": "Iphone XS Max",
+        "image": "../img/iphone-xs-max.jpg",
+        "display": "6.5 Inches",
+        "camera": "12MP",
+        "memory": "4GB RAM",
+        "cpu": "Apple A12 Bionic",
+        "storage": "512GB",
+        "battery": "3174mAh",
+        "price": "$1350",
+        "description": "Apple finally delivers an iPhone with a huge screen, and for movie-watching, game-playing fans the iPhone XS Max is an exciting new addition to the range. It certainly costs a lot, but if you can get past the price (which many won't be able to) the XS Max offers up a super, supersized experience."        
+    },
+    {
+        "id": "2",
+        "productName": "Samsung Galaxy S10",
+        "image": "../img/samsung-galaxy-s10.jpg",
+        "display": "6.1 Inches",
+        "camera": "16MP",
+        "memory": "8GB RAM",
+        "cpu": "Exynos 9820",
+        "storage": "512GB",
+        "battery": "3400mAh",
+        "price": "$750",
+        "description": "The Galaxy S10 Plus is Samsung's new 'everything phone' for 2019, helping disrupt the sameness of the last few generations of handsets. Its 6.4-inch screen is so big it displaces the front camera, while its triple-lens rear camera can take ultra-wide photos. Hidden perks like an in-screen fingerprint sensor and Wireless PowerShare offer a lot of nifty features – just know Samsung is asking for a lot of money, too."        
+    },
+    {
+        "id": "3",
+        "productName": "Huawei Mate 20 Pro",
+        "image": "../img/huawei-mate-20-pro.jpg",
+        "display": "6.39 Inches",
+        "camera": "40MP",
+        "memory": "8GB RAM",
+        "cpu": "HiSilicon Kirin 980",
+        "storage": "256GB",
+        "battery": "4200mAh",
+        "price": "$700",
+        "description": "Huawei has the best from Apple and Samsung in its sights with its powerful, full-featured flagship – and it's worth the cost, if you can stomach a four-figure pricetag."        
+    },
+    {
+        "id": "4",
+        "productName": "Google Pixel 3a",
+        "image": "../img/google-pixel-3a.jpg",
+        "display": "5.6 Inches",
+        "camera": "12MP",
+        "memory": "4GB RAM",
+        "cpu": "Snapdragon 670",
+        "storage": "64GB",
+        "battery": "3000mAh",
+        "price": "$399",
+        "description": "The Google Pixel 3a doesn’t feel like the affordable cousin of a high-end phone – it feels more like a powerful and impressive mid-range handset in its own right, with great specs and useful features inherited from the Pixel 3 that you won’t find in many other similarly-priced devices."        
+    },
+    {
+        "id": "5",
+        "productName": "Xiaomi MI 9",
+        "image": "../img/xiaomi-mi-9.jpg",
+        "display": "6.39 Inches",
+        "camera": "48MP",
+        "memory": "8GB RAM",
+        "cpu": "Snapdragon 855",
+        "storage": "128GB",
+        "battery": "3300mAh",
+        "price": "$600",
+        "description": "The Xiaomi Mi 9 is a fantastic all-round device, offering many of the bells and whistles of high-end phones but without the price tag. Affordable price, impressive camera setup, powerful chipset."        
+    },
+    {
+        "id": "6",
+        "productName": "Huawei Honor 20",
+        "image": "../img/huawei-honor-20.jpg",
+        "display": "6.26 Inches",
+        "camera": "48MP",
+        "memory": "8GB RAM",
+        "cpu": "HiSilicon Kirin 980",
+        "storage": "256GB",
+        "battery": "4000mAh",
+        "price": "$750",
+        "description": "Advanced features, great battery life and a good price: the only real part to put you off the Honor View 20 is that ambitious shiny finish. Great battery life, intriguing, smart camera, intelligent use of the punch hole display"        
+    }    
+]
