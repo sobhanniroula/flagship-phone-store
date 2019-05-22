@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+}
+
+#cover {
+    background: #222 center center no-repeat;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/back-1.jpg');
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cover-caption {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-inline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
