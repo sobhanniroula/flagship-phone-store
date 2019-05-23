@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="../css/style2.css">
     
     <!-- Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -29,28 +29,28 @@
             <div class="card-deck">
 
                 <div class="card">
-                   <p class="text-warning bg-info" id="phone-price">$699</p>
-                   <a href="homepage.html" id="go-back"><i class="material-icons">arrow_back</i> Go Back </a>
-                   <div id="phone-image"><img class="card-image-top" src="img/op7pro.jpg" alt="OnePlus 7 Pro"></div>
+                   <p class="text-warning bg-info" id="phone-price">{%PRICE%}</p>
+                   <a href="template-homepage.html" id="go-back"><i class="material-icons">arrow_back</i> Go Back </a>
+                   <div id="phone-image"><img class="card-image-top" src="/{%IMAGE%}" alt="{%PRODUCTNAME%}"></div>
                     
                     <div class="card-body bg-info">
                         <div class="header">
-                            <h5 class="text-light  card-title border-bottom" id="phone-title">ONEPLUS 7 PRO</h5>
+                            <h5 class="text-light  card-title border-bottom" id="phone-title"> {%PRODUCTNAME%} </h5>
                         </div>
                         <div class="card-text body-part" id="phone-details">
-                            <p class="card-detail"><i class="material-icons">smartphone</i> 6.67 inches</p>
-                            <p class="card-detail"><i class="material-icons">camera</i> 48MP</p>
-                            <p class="card-detail"><i class="material-icons">straighten</i> 12GB RAM</p>
-                            <p class="card-detail"><i class="material-icons">memory</i> SnapDragon 855 </p>
-                            <p class="card-detail"><i class="material-icons">sd_storage</i> 256 GB</p>
-                            <p class="card-detail"><i class="material-icons">battery_std</i> 4000mAh</p>
+                            <p class="card-detail"><i class="material-icons">smartphone</i> {%DISPLAY%} </p>
+                            <p class="card-detail"><i class="material-icons">camera</i> {%CAMERA%} </p>
+                            <p class="card-detail"><i class="material-icons">straighten</i> {%MEMORY%} </p>
+                            <p class="card-detail"><i class="material-icons">memory</i> {%CPU%} </p>
+                            <p class="card-detail"><i class="material-icons">sd_storage</i> {%STORAGE%} </p>
+                            <p class="card-detail"><i class="material-icons">battery_std</i> {%BATTERY%} </p>
                         </div>
                         <p id="phone-description">
-                            The OnePlus 7 Pro is OnePlus's first big flagship for 2019, and wow is it something special. The pop-up selfie camera allows for a display without any bezels or notches, there are three cameras on the back, and blazing fast performance with great software. All of that, and it costs hundreds of dollars less than some competing flagships.
+                            {%DESCRIPTION%}
                         </p>
                         <div class="footer">
                             
-                            <a href="#" class="phone-link"> Buy Now For $699 <i class="large material-icons"> thumb_up </i></a> 
+                            <a href="#" class="phone-link"> Buy Now For {%PRICE%} <i class="large material-icons"> thumb_up </i></a> 
                         </div>                         
                     </div>
                 </div>
@@ -68,6 +68,6 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     
-    <script src="js/bootstrapjs/bootstrap.min.js"></script>
+    <script src="../js/bootstrapjs/bootstrap.min.js"></script>
   </body>
 </html>
