@@ -51,6 +51,13 @@ img {
     opacity: 0.9;
 }
 
+#store-desc {
+    background: rgba(255,255,255,0.1);
+    padding: 0 0.2rem;
+    border-radius: 0.2rem;
+    text-shadow: 0 0 0.7rem rgba(0,0,0,0.5);
+}
+
 .card-deck {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
