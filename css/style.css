@@ -99,6 +99,8 @@ i {
 
 .footer {
     color: aliceblue;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer i {
@@ -147,10 +149,15 @@ i {
     #cover {
         height: 180%;
     }
+
+    .section-content {
+        padding: 1rem;
+    }
+
     .card-deck {
         display: flex;
         flex-wrap: wrap;
-    }
+    }    
     .card-price {
         font-size: 1.5rem;
     }
@@ -161,6 +168,9 @@ i {
 }
 
 @media screen and (max-width: 75rem) and (min-width: 35rem){
+    .section-content {
+        padding: 2rem;
+    }
     .card-price {
         font-size: 1rem;
     }
