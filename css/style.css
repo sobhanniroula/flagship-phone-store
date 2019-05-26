@@ -64,6 +64,7 @@ img {
     grid-gap: 1rem;
 }
 
+
 .card {
     margin-bottom: 1rem;
     margin-top: 2rem;
@@ -139,4 +140,35 @@ i {
 .card-link:hover, .card-link:active {
             background-color: #67b26f;
     
+}
+
+
+@media screen and (max-width: 35rem) {
+    #cover {
+        height: 180%;
+    }
+    .card-deck {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card-price {
+        font-size: 1.5rem;
+    }
+    .card-link:link, .card-link:visited {
+        font-size: 0.6rem;
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 75rem) and (min-width: 35rem){
+    .card-price {
+        font-size: 1rem;
+    }
+    .card-link:link, .card-link:visited {
+        font-size: 0.4rem;
+    }
+    .card-link:link i, .card-link:visited i {
+        height: 0.1rem;
+        width: 0.1rem;
+    }
 }
