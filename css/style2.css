@@ -2,7 +2,7 @@
 
 
 html {
-    height: 100%;
+   
     box-sizing: border-box;
 }
 
@@ -31,11 +31,12 @@ img {
     background-size: cover;
     filter: blur(5px);
     -webkit-filter: blur(5px);
-    height: 130%;
+    height: 150%;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
+    
 }
 
 .row {
@@ -55,7 +56,6 @@ img {
 
 #phone-price {
     position: absolute;
-    top: -3rem;
     z-index: 100;
     height: 10rem;
     width: 10rem;
@@ -67,8 +67,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 42rem;
-    margin-top: 1rem;
+    right: -25px;
+    top: -25px;
 }
 
 #go-back:link, #go-back:visited {
@@ -153,4 +153,37 @@ i {
 
 .phone-link i {
     margin-left: 1rem;
+}
+
+
+@media screen and (max-width: 70rem) {
+    body {
+        display: flex;
+        justify-content: center;
+        padding: 1.5rem;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    #cover {
+        height: 250%;
+    }
+    .card-deck {
+       
+        padding-left: 2rem;
+    }
+    .card {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #phone-price{
+       top: -25px;
+       right: -25px;
+       height: 7rem;
+    width: 7rem;
+    font-size: 2rem;
+    }
 }
